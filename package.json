@@ -1,0 +1,20 @@
+{
+  "name": "marketplace-handoff-error-groups",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/handoff_service.ts",
+    "example": "tsx src/run_handoff.ts",
+    "test": "tsx --test test/handoff_policy.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
